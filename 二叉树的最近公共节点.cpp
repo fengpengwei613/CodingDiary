@@ -13,9 +13,6 @@ struct TreeNode {
 一种思路是利用dfs寻找两个点的路径，然后根据路径找到最接近的公共节点。传统的dfs寻找最短路径的方法，不过多介绍。
 另外一种思路是递归思路。
 
-
-
-
 */
 //dfs求路径题解
 class Solution {
@@ -64,7 +61,13 @@ public:
 };
 
 
-
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        
+    }
+    
+};
 
 
 
